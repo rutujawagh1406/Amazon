@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex   ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(imgs/Amazon-Logo-Black.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.2px solid white;
+}
+
+
+/*box 2*/
+.nav-address{
+    margin-left: 20px;
+}
+.add-first{
+    color: #CCCCCC;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.add-icon{
+    text-align: center;
+    display: flex;
+    
+}
+.add-second{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+
+/*box3*/
+.nav-search{
+    display: flex;
+    margin-left: 5px;
+    width: 620px;
+    height: 40px;
+    border-radius: 6px;
+    
+}
+
+.select-search{
+    font-size: 14px;
+    width: 95px;
+    background-color: #e6e6e6;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    border: none;
+    text-align: center;
+}
+
+.search-input{
+    width: 1000px;
+    font-size: 14px;
+    border: none;
+    
+}
+
+.search-icon{
+    font-size: 1.2rem;
+    color: black;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febe68   ;
+    border-top-right-radius:6px ;
+    border-bottom-right-radius:6px ;
+}
+
+.nav-search:hover{
+    border: solid 1.2px orange;
+}
+
+.nav-location{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.flag{
+    background-image: url(imgs/flag.png);
+    background-size: cover;
+    height: 15px;
+    width: 25px;
+    
+}
+.lan{
+   margin-left: 4px; 
+   font-size: 12px;
+}
+.arrow{
+    margin-left: 2px;
+    font-size: 10px;
+    color:#e6e6e6;
+    width: 10px;
+}
+
+.signin{
+    font-size: 12px;
+    
+}
+
+.accounts-sec{
+    display:flex ;
+    font-size: 14px;
+}
+.accounts-sec arrow{
+    font-size: 5px;
+    color:#e6e6e6;
+    width: 10px;
+}
+
+
+.returns{
+    font-size: 12px;
+    
+}
+
+.order{
+    font-size: 14px;
+}
+
+
+.cart{
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+}
+
+.cart-icon i{
+ font-size: 30px;
+}
+
+.add-cart {
+    margin-top: 15px;
+}
+
+
+
+.panel{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    height: 40px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.panel-all{
+    margin-left: 5px;
+}
+.panel-deals p{
+    display: inline;
+    margin-left: 20px;
+}
+
+
+
+
+/**hero=section**/
+.hero-section{
+    
+    background-image: url(imgs/hero.img);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
+.hero-bar{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    height: 40px;
+    width: 95%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.hero-bar a{
+    text-decoration: none;
+    color: #007185;
+}
+
+
+
+
+.container{
+    display: flex;
+    background-color: rgb(211, 165, 211);
+    justify-content: space-evenly;  
+}
+
+
+.box{
+    margin-top: 10px;
+    height: 385px;
+    width: 306px;
+    background-color: white;
+    margin-left: 20px;
+    font-size: 21px;
+    font-weight: bold;
+
+    justify-content: center;
+    
+}
+
+.box img{
+    height: 300px;
+    width: 250px;
+}
